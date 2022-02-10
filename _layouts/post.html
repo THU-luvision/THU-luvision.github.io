@@ -5,12 +5,7 @@ layout: main
   <div class="page-content">
     {% if page.img %}
     <div class="page-cover-image">
-      <figure>
-        <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
-        {% if page.fig-caption %}
-          <figcaption>{{page.fig-caption}}</figcaption>
-        {% endif %}
-      </figure>
+      <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
     </div> <!-- End Page Cover Image -->
     {% else %}
     {% endif %}
@@ -19,7 +14,7 @@ layout: main
         <h1 class="page-title">{{page.title}}</h1>
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
-      {{content | markdownify}}
+      {{page.content | markdownify}}
       <div class="page-footer">
         <div class="page-share">
           <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>

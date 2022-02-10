@@ -29,15 +29,6 @@ img {
   display: inline-block;
 }
 
-img + em {
-  text-align: center;
-  display: block;
-  margin-top: 10px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-}
-
 blockquote {
   border-left: 5px solid #000;
   padding-left: 1.1rem;
@@ -48,19 +39,12 @@ blockquote {
 
 pre {
   padding: 1rem 2rem;
-  overflow: auto;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  word-break: break-all;
+  overflow-x: auto;
 
   code {
     border: 0;
     padding-right: 0;
     padding-left: 0;
-    overflow: auto;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    word-break: break-all;
   }
 }
 
