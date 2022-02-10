@@ -1,39 +1,31 @@
-title: Hello, world! I'm Marina
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-permalink: ':title/'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+title: jekyll-rtd-theme
+description: Just another documentation theme compatible with GitHub Pages
 
-# Author Settings
-author: Marina # add your name
-author-img: Marina-Ma.jpg # add your photo
-about-author: A Blog for Learn to Learn # add description
-twitter: # add your Twitter handle
-facebook: marina.ma.900 # add your Facebook handle
-github: Marina-Ma # add your Github handle
-linkedin: # add your Linkedin handle
-email: majority1@126.com # add your Email address
+theme: null
 
-# Disqus
-discus-identifier: mr-brown # add your discus identifier
+# debug:
+#   compress: true
+#   dist: false
+#   shortcodes: true
 
-# Tracker
-analytics: # Google Analytics
+readme_index:
+  with_frontmatter: true
 
-# Build Settings
-markdown: kramdown
 plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-mentions
   - jemoji
-  - jekyll-redirect-from
-  
+  - jekyll-avatar
+  - jekyll-mentions
 
-paginate: 8
-paginate_path: "/page/:num"
-
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+exclude:
+  - Makefile
+  - CNAME
+  - LICENSE
+  - update.sh
+  - Gemfile
+  - Gemfile.lock
+  - requirements.txt
+  - node_modules
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - jekyll-rtd-theme.gemspec
