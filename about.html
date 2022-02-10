@@ -1,0 +1,135 @@
+---
+layout: page
+title: "About"
+description: "Hi, this is Wblearn."
+header-img: "img/post-bg-alitrip.jpg"
+---
+
+<!-- Language Selector -->
+<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英文 English </option>
+</select>
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+
+
+  <p> Hi，我是张文炳，90后程序猿一枚，昵称<Strong>wblearn</Strong>。<br></p>
+  目前投身于IT行业，同时在其他方面打打辅助!<br>   
+  <p>希望通过这个博客能结识更多志同道合的人，学习分享的路上与君共勉!<br> </p>  
+  <Strong>可通过以下方式联系到我:</Strong><br>
+   <Strong>QQ邮箱:1275660493@qq.com</Strong><br>
+   <Strong>微博:<a href='https://weibo.com/wudalanggd' target='_blank'>https://weibo.com/wudalanggd</a></Strong>
+   
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+    <!--<blockquote><p>
+    Don't let anything become a reason for not studying</p></blockquote>-->
+
+    <p> Hi, I am Wenbing Zhang，a software engineer，Nickname <Strong>wblearn</Strong>。<br></p>
+  My major career is Java Software Development Engineer at present!<br>   
+  <p>I hope that through this blog, we can get to know more like-minded people and learn to share with them on the road of sharing!<br> </p>  
+  <Strong>you can contact me in the following ways:</Strong><br>
+   <Strong>QQ Email:1275660493@qq.com</Strong><br>
+   <Strong>Weibo:<a href='https://weibo.com/wudalanggd' target='_blank'>https://weibo.com/wudalanggd</a></Strong>
+   
+</div>
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    // get nodes
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    var $select = document.querySelector("select");
+
+    // bind hashchange event
+    window.addEventListener('hashchange', _render);
+
+    // handle render
+    function _render(){
+        var _hash = window.location.hash;
+        // en
+        if(_hash == "#en"){
+            $select.selectedIndex = 1;
+            $en.style.display = "block";
+            $zh.style.display = "none";
+        // zh by default
+        }else{
+            // not trigger onChange, otherwise cause a loop call.
+            $select.selectedIndex = 0;
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        }
+    }
+
+    // handle select change
+    function onLanChange(index){
+        if(index == 0){
+            window.location.hash = "#zh"
+        }else{
+            window.location.hash = "#en"
+        }
+    }
+
+    // init
+    _render();
+</script>
+
+{% if site.duoshuo_username %}
+
+			                <!-- 多说评论框 start -->
+			                <div class="comment">
+			                    <div class="ds-thread"
+									data-thread-key="{{site.duoshuo_username}}/about"
+			                        data-title="{{page.title}}"
+			                        data-url="{{site.url}}{{site.baseurl}}{{page.url}}" >
+			                    </div>
+			                </div>
+			                <!-- 多说评论框 end -->
+		
+					{% endif %}
+				
+		
+		{% if site.duoshuo_username %}
+		<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+		<script type="text/javascript">
+		    // dynamic User by wblearn
+		    var _user = '{{site.duoshuo_username}}';
+
+		    // duoshuo comment query.
+		    var duoshuoQuery = {short_name: _user };
+		    (function() {
+		        var ds = document.createElement('script');
+		        ds.type = 'text/javascript';ds.async = true;
+		        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		        ds.charset = 'UTF-8';
+		        (document.getElementsByTagName('head')[0]
+		         || document.getElementsByTagName('body')[0]).appendChild(ds);
+		    })();
+		</script>
+		<!-- 多说公共JS代码 end -->
+		{% endif %}
+		
+{% if site.livere_uid %}
+<!-- livere 评论框 start -->
+<div class="comment">
+    <div id="lv-container" data-id="city" data-uid="{{ site.livere_uid }}"></div>
+</div>
+<!-- livere 评论框 end -->
+
+<!-- livere 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+    })(document, 'script');
+</script>
+<!-- livere 公共JS代码 end -->
+{% endif %}
