@@ -3,7 +3,7 @@ layout: post
 title: 爱上学习
 date: 2017-11-03 21:00:00 +0300
 description: 在这个年纪，重新开始爱上学习。 # Add post description (optional)
-img: learn.jpeg # Add image post (optional)
+img: learn.jpg # Add image post (optional)
 tags: [learn] # add tag
 ---
 
