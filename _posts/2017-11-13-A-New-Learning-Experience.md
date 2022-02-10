@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SurRF: Unsupervised Multi-view Stereopsis by Learning Surface Radiance Field
+title: Unsupervised Multi-view Stereopsis by Learning Surface Radiance Field
 date: 2017-11-13 21:00:00 +0300
 description: Zhang, Jinzhi and Ji, Mengqi and Wang, Guangyu and Zhiwei, Xue and Wang, Shengjin and Fang, Lu # Add post description (optional)
 img: Learning.jpg # Add image post (optional)

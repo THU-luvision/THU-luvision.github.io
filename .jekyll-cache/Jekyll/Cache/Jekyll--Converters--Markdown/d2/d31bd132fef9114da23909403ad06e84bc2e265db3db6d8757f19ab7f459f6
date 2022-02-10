@@ -1,0 +1,97 @@
+I"�<p>Markdown 是一种简单的语言，用它写作，就不用总想着用什么格式去修改。让写作回归写作的本质。</p>
+
+<p>先看三篇文章：</p>
+<ol>
+  <li>用 Markdown 写作的好处见  <a href="http://mp.weixin.qq.com/s/HsPZLl60vjbEKEbT2HHH7A">Markdown 写作浅谈</a></li>
+  <li>Markdown 语法指南见  <a href="https://guides.github.com/features/mastering-markdown/">Mastering Markdown · GitHub Guides</a>。</li>
+  <li>Atom 是开源的，支持很多 Markdown packages，可以扩展一些很赞的功能，Markdown 的预览，以及插入图片，看这篇文章就知道啦：<a href="http://www.cnblogs.com/libin-1/p/6638165.html">使用 Atom 打造无懈可击的 Markdown 编辑器</a>。</li>
+</ol>
+
+<p>你要是这三篇都看完，那Markdown的使用就基本没有问题了。</p>
+
+<p>另外值得注意的是，GitHub Guides中没有提到 ‘color’, ‘css’, ‘html’, or ‘style’，因此用这些写的无法在 GitHub 上显示；下面的举例中，也会明确指出哪些适用于 GitHub，哪些不适用。</p>
+
+<h2 id="emoji适用于github">emoji适用于（GitHub）</h2>
+
+<p>如果是 GitHub写作，只要调用“：”就可以了。如果要在 Jekyll 中显示 emoji，还要注意 _config.yml中要这样<a href="https://help.github.com/articles/emoji-on-github-pages/">设置</a>。</p>
+
+<p>在 Atom 里编辑 emoji，需要添加一个 package—<a href="https://atom.io/packages/autocomplete-emojis">autocomplete-emojis</a>，输入“::”，就可以调用 Markdown emoji 了:smiley:</p>
+
+<p>有哪些 emoji 可以用呢？来看看<a href="https://www.webpagefx.com/tools/emoji-cheat-sheet/">小抄表</a></p>
+
+<h2 id="表格适用于-github">表格（适用于 GitHub）</h2>
+<p><strong>Markdown 写法</strong></p>
+
+<p><img src="https://github.com/Marina-Ma/Marina-Ma.github.io/blob/master/assets/img/markdown-img-paste-20171026113646668.png?raw=true" alt="table" /></p>
+
+<p><strong>Markdown 呈现样式</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Softwa</th>
+      <th>Atom</th>
+      <th>Jianshu</th>
+      <th>Weizhi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Function</td>
+      <td>Edit</td>
+      <td>write</td>
+      <td>knowledge management</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="highlight适用于-github">Highlight（适用于 GitHub）</h2>
+
+<p><img src="https://github.com/Marina-Ma/Marina-Ma.github.io/blob/master/assets/img/markdown-img-paste-20171026133106904.png?raw=true" alt="Highlight" /></p>
+
+<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gi">+ 加号代表highlight绿色
+</span><span class="gd">- 减号代表highlight红色
+</span></code></pre></div></div>
+
+<h2 id="粘贴照片">粘贴照片</h2>
+
+<p>为了快速粘贴剪切的照片，需在 Atom 设置中下载 <a href="https://atom.io/packages/markdown-img-paste">markdown-img-paste</a>，并注册千牛云，按提示输入配置，其中域名只要用测试域名就可以了。</p>
+
+<p>为什么不拷贝截图后直接粘贴，而要用千牛云呢，因为照片的路径无法在 Jekyll 页面上显示，只能在 GitHub 上显示。<code class="language-plaintext highlighter-rouge">Markdown-img-paste</code> 默认粘贴的照片储存在 <code class="language-plaintext highlighter-rouge">_post/assets</code> 下，Jekyll直接找到 <code class="language-plaintext highlighter-rouge">assets</code> 上去找图片，是肯定找不到的。最好的解决方案还是用 <code class="language-plaintext highlighter-rouge">Markdown-img-paste</code> +千牛</p>
+
+<p><img src="http://oysqcklir.bkt.clouddn.com/markdown-img-paste-20171103004943248.png" alt="img-paste-setting" /></p>
+
+<h2 id="字体不适用于-github">字体(不适用于 GitHub)</h2>
+
+<p><strong>Markdown 写法</strong></p>
+
+<p><img src="https://github.com/Marina-Ma/Marina-Ma.github.io/blob/master/assets/img/markdown-img-paste-2017102612053162.png?raw=true" alt="font" /></p>
+
+<p><strong>Markdown 呈现样式</strong></p>
+
+<ol>
+  <li>
+    <font face="黑体">我是黑体</font>
+  </li>
+  <li>
+    <font face="微软雅黑">我是微软雅黑</font>
+  </li>
+  <li>&lt;font color=#FF0000 face=”宋体”&gt;我是红色宋体&lt;/font&gt;</li>
+  <li>
+    <font color="gray" size="5">我是灰色</font>
+  </li>
+</ol>
+
+<p>另外颜色可以在这个网站查询<a href="http://tool.oschina.net/commons?type=3">RGB颜色参考</a></p>
+
+<h2 id="底色背景色不适用于-github">底色/背景色（不适用于 GitHub）</h2>
+
+<p><strong>Markdown 写法</strong></p>
+
+<p><img src="https://github.com/Marina-Ma/Marina-Ma.github.io/blob/master/assets/img/markdown-img-paste-20171026125110889.png?raw=true" alt="背景色" /></p>
+
+<p><strong>Markdown 呈现样式</strong></p>
+<table><tr>&lt;td bgcolor=#0e88e3&gt;这里的背景色是#0e88e3&lt;/td&gt;</tr></table>
+
+<p>配色参考 <a href="http://www.color-hex.com/color-palettes/">Color Palettes Color Schemes</a></p>
+:ET
