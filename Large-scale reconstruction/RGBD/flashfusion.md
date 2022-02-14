@@ -1,13 +1,10 @@
 # FlashFusion: An efficient dense 3D reconstruction that only relies on CPU computing.
 
-Han Lei, Lu Fang. 
-[[Paper]](http://www.roboticsproceedings.org/rss14/p06.pdf) 
-
-<!-- ## [Github code](https://github.com/THU-luvision/Flashfusion) -->
+Han Lei, Lu Fang.<br/>InRobotics: Science and Systems 2018 Jun.
 
 [![github](/pic/github3.png){: width="50px" }](https://github.com/THU-luvision/Flashfusion)  &nbsp;&nbsp;&nbsp;
-[![pdf](/pic/pdf.jpeg){: width="50px" }](https://github.com/THU-luvision/Flashfusion) &nbsp;&nbsp;&nbsp;
-[![video](/pic/video.png){: width="50px" }](https://github.com/THU-luvision/Flashfusion)
+[![pdf](/pic/pdf.jpeg){: width="50px" }](http://www.roboticsproceedings.org/rss14/p06.pdf) &nbsp;&nbsp;&nbsp;
+[![video](/pic/video.png){: width="50px" }](https://www.youtube.com/watch?v=wWpJJVycOos)
 
 ## Introduction
 
@@ -25,7 +22,6 @@ i.e., the CPU computing on portable device.
 {:refdef: style="text-align: center;"}
 ![Framework](/pic/flashfusion_pipeline.png){: width="800" }
 {: refdef}
-<center>Framework.</center>
 
 ## Citing
 

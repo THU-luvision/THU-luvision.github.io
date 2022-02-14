@@ -1,20 +1,18 @@
 # BuildingFusion: Semantic-aware Structural Building-scale 3D Reconstruction 
 
-By Tian Zheng; Guoqing Zhang; Lei Han; Lan Xu; Lu Fang*. (\*) Corresponding author.
-[[Paper]](https://ieeexplore.ieee.org/abstract/document/9286413) 
-
-<!-- ## [Github code](https://github.com/THU-luvision/BuildingFusion) -->
+Tian Zheng; Guoqing Zhang; Lei Han; Lan Xu; Lu Fang*. (\*) Corresponding author.<br/>IEEE Transactions on Pattern Analysis and Machine Intelligence. 2020 Dec 8.
 
 [![github](/pic/github3.png){: width="50px" }](https://github.com/THU-luvision/BuildingFusion)  &nbsp;&nbsp;&nbsp;
-[![pdf](/pic/pdf.jpeg){: width="50px" }](https://github.com/THU-luvision/Flashfusion) &nbsp;&nbsp;&nbsp;
-[![video](/pic/video.png){: width="50px" }](https://github.com/THU-luvision/Flashfusion)
+[![pdf](/pic/pdf.jpeg){: width="50px" }](https://ieeexplore.ieee.org/abstract/document/9286413) &nbsp;&nbsp;&nbsp;
+[![video](/pic/video.png){: width="50px" }](https://www.youtube.com/watch?v=C76v3XLwWsE)
+
 
 
 ## Introduction
 This is the official code repository for BuildingFusion, a semantic-aware structural building-scale reconstruction system, which allows collaborative building-scale dense reconstruction, with online semantic and structural understanding. It is able to handle large scale scenes (~1000m^2).
 
 ![Framework](/pic/buildingfusion.png)
-<center>Results.</center>
+
 
 
 ## Citing
