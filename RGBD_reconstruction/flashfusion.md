@@ -2,6 +2,15 @@
 
 ## [Github code](https://github.com/THU-luvision/Flashfusion)
 
+
+![test](https://github.com/THU-luvision/THU-luvision.github.io/blob/main/assets/images/teaser.png) 
+
+
+<!-- ![test](https://github.com/THU-luvision/THU-luvision.github.io/blob/main/assets/images/teaser.png) 
+ -->
+
+
+
 ## Introduction
 This is the official code repository for FlashFusion, an efficient dense 3D reconstruction system that only relies on CPU computing.
 

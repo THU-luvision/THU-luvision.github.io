@@ -1,9 +1,8 @@
-# GigaMVS: A Benchmark for Ultra-large-scale Gigapixel-level 3D Reconstruction[[Paper]](https://ieeexplore.ieee.org/document/9547729)[[Demo]()]
+# GigaMVS: A Benchmark for Ultra-large-scale Gigapixel-level 3D Reconstruction
 
 This repository is used for discussing issues regarding the **GigaMVS** dataset and benchmark. Please visit the following website for more details:
 
 http://gigamvs.com/
-
 
 
 ## About
