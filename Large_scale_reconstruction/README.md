@@ -1,8 +1,8 @@
 ---
-sort: 1
+sort: 2
 ---
 
-# Large-scale reconstruction
+# Large-scale Reconstruction
 
 
 {% include list.liquid all=true %}

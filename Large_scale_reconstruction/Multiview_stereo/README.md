@@ -2,7 +2,7 @@
 sort: 1
 ---
 
-# Multiview stereo
+# Multiview Stereo
 
 
 {% include list.liquid all=true %}

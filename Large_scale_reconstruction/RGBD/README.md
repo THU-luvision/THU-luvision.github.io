@@ -2,7 +2,7 @@
 sort: 2
 ---
 
-# RGBD 
+# RGBD Reconstruction
 
 
 {% include list.liquid all=true %}
