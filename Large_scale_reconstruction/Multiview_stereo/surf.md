@@ -1,6 +1,6 @@
 ## SurRF: Unsupervised Multi-view Stereopsis by Learning Surface Radiance Field
 
-Jinzhi Zhang\*, Mengqi Ji*, Guangyu Wang, Xue Zhiwei, Shengjin Wang, Lu Fang.<br/>IEEE Transactions on Pattern Analysis and Machine Intelligence. 2021 Sep 30.
+Jinzhi Zhang\*, Mengqi Ji*, Guangyu Wang, Xue Zhiwei, Shengjin Wang, Lu Fang.<br/>**IEEE Transactions on Pattern Analysis and Machine Intelligence.** 2021 Sep 30.
 
 [![github](/pic/github3.png){: width="50px" }](https://github.com/THU-luvision/SurRF)  &nbsp;&nbsp;&nbsp;
 [![pdf](/pic/pdf.jpeg){: width="50px" }](https://ieeexplore.ieee.org/document/9555381) &nbsp;&nbsp;&nbsp;

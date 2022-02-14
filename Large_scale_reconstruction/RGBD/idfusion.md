@@ -1,6 +1,6 @@
 # iDFusion: Globally Consistent Dense 3D Reconstruction from RGB-D and Inertial Measurements.
 
-Dawei Zhong\*, Lei Han\*, Lu Fang.<br/>InProceedings of the 27th ACM International Conference on Multimedia 2019 Oct 15.
+Dawei Zhong\*, Lei Han\*, Lu Fang.<br/>**InProceedings of the 27th ACM International Conference on Multimedia.** 2019 Oct 15.
 
 [![github](/pic/github3.png){: width="50px" }](https://github.com/THU-luvision/iDFusion)  &nbsp;&nbsp;&nbsp;
 [![pdf](/pic/pdf.jpeg){: width="50px" }](https://dl.acm.org/doi/abs/10.1145/3343031.3351085) &nbsp;&nbsp;&nbsp;

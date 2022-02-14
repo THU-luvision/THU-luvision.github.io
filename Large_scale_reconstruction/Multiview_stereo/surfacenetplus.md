@@ -1,6 +1,6 @@
 # SurfaceNet+: An End-to-end 3D Neural Network for Very Sparse Multi-View Stereopsis
 
-Mengqi Ji, Jinzhi Zhang, Qionghai Dai, Lu Fang. <br/>IEEE Transactions on Pattern Analysis and Machine Intelligence. 2020 May 25.
+Mengqi Ji, Jinzhi Zhang, Qionghai Dai, Lu Fang. <br/>**IEEE Transactions on Pattern Analysis and Machine Intelligence.** 2020 May 25.
 
 [![github](/pic/github3.png){: width="50px" }](https://github.com/THU-luvision/SurfaceNetPlus)  &nbsp;&nbsp;&nbsp;
 [![pdf](/pic/pdf.jpeg){: width="50px" }](https://arxiv.org/pdf/2005.12690.pdf) &nbsp;&nbsp;&nbsp;

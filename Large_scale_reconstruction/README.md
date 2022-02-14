@@ -1,8 +1,8 @@
 ---
-sort: 1
+sort: 3
 ---
 
-# RGBD reconstruction
+# Large-scale reconstruction
 
 
 {% include list.liquid all=true %}

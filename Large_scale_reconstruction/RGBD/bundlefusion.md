@@ -1,6 +1,6 @@
 # BuildingFusion: Semantic-aware Structural Building-scale 3D Reconstruction 
 
-Tian Zheng; Guoqing Zhang; Lei Han; Lan Xu; Lu Fang*. (\*) Corresponding author.<br/>IEEE Transactions on Pattern Analysis and Machine Intelligence. 2020 Dec 8.
+Tian Zheng, Guoqing Zhang, Lei Han, Lan Xu, Lu Fang.<br/>**IEEE Transactions on Pattern Analysis and Machine Intelligence.** 2020 Dec 8.
 
 [![github](/pic/github3.png){: width="50px" }](https://github.com/THU-luvision/BuildingFusion)  &nbsp;&nbsp;&nbsp;
 [![pdf](/pic/pdf.jpeg){: width="50px" }](https://ieeexplore.ieee.org/abstract/document/9286413) &nbsp;&nbsp;&nbsp;

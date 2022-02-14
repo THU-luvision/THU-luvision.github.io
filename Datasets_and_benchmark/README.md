@@ -1,8 +1,8 @@
 ---
-sort: 1
+sort: 2
 ---
 
-# Multiview stereo
+# Datasets and benchmark
 
 
 {% include list.liquid all=true %}

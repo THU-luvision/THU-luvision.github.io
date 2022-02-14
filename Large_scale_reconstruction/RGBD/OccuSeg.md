@@ -1,7 +1,7 @@
 # OccuSeg: Occupancy-aware 3D Instance Segmentation
 
 
-Han Lei, Tian Zheng, Lan Xu, Lu Fang.<br/>InProceedings of the IEEE/CVF conference on computer vision and pattern recognition 2020.
+Han Lei, Tian Zheng, Lan Xu, Lu Fang.<br/>**InProceedings of the IEEE/CVF conference on computer vision and pattern recognition.** 2020.
 
 [![github](/pic/github3.png){: width="50px" }](https://github.com/THU-luvision/OccuSeg)  &nbsp;&nbsp;&nbsp;
 [![pdf](/pic/pdf.jpeg){: width="50px" }](https://openaccess.thecvf.com/content_CVPR_2020/papers/Han_OccuSeg_Occupancy-Aware_3D_Instance_Segmentation_CVPR_2020_paper.pdf) &nbsp;&nbsp;&nbsp;

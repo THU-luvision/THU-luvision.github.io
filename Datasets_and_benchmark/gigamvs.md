@@ -1,6 +1,6 @@
 # GigaMVS: A Benchmark for Ultra-large-scale Gigapixel-level 3D Reconstruction
 
-Zhang J, Zhang J, Mao S, Ji M, Wang G, Chen Z, Zhang T, Yuan X, Dai Q, Fang L.<br/>IEEE Transactions on Pattern Analysis & Machine Intelligence. 2021 Sep 1.
+Zhang J, Zhang J, Mao S, Ji M, Wang G, Chen Z, Zhang T, Yuan X, Dai Q, Fang L.<br/>**IEEE Transactions on Pattern Analysis & Machine Intelligence.** 2021 Sep 1.
 
 [![github](/pic/github3.png){: width="50px" }](https://github.com/THU-luvision/GigaMVS)  &nbsp;&nbsp;&nbsp;
 [![pdf](/pic/pdf.jpeg){: width="50px" }](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9547729) &nbsp;&nbsp;&nbsp;

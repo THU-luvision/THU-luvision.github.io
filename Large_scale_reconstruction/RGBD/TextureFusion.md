@@ -1,6 +1,6 @@
 # Real-Time Globally Consistent Dense 3D Reconstruction With Online Texturing
 
-Lei Han , Siyuan Gu, Dawei Zhong, Lu Fang.<br/>IEEE Transactions on Pattern Analysis and Machine Intelligence. 2020 Sep 2.
+Lei Han , Siyuan Gu, Dawei Zhong, Lu Fang.<br/>**IEEE Transactions on Pattern Analysis and Machine Intelligence.** 2020 Sep 2.
 
 [![github](/pic/github3.png){: width="50px" }](https://github.com/THU-luvision/TextureFusion)  &nbsp;&nbsp;&nbsp;
 [![pdf](/pic/pdf.jpeg){: width="50px" }](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9184935) &nbsp;&nbsp;&nbsp;
