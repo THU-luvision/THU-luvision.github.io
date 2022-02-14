@@ -3,12 +3,7 @@
 ## [Github code](https://github.com/THU-luvision/Flashfusion)
 
 
-![test](https://github.com/THU-luvision/THU-luvision.github.io/blob/main/assets/images/teaser.png) 
-
-
-<!-- ![test](https://github.com/THU-luvision/THU-luvision.github.io/blob/main/assets/images/teaser.png) 
- -->
-
+![test](/pic/teaser.png)
 
 
 ## Introduction
