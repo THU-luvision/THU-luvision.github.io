@@ -1,18 +1,31 @@
 # FlashFusion: An efficient dense 3D reconstruction that only relies on CPU computing.
 
-## [Github code](https://github.com/THU-luvision/Flashfusion)
+Han Lei, Lu Fang. 
+[[Paper]](http://www.roboticsproceedings.org/rss14/p06.pdf) 
 
+<!-- ## [Github code](https://github.com/THU-luvision/Flashfusion) -->
 
-![test](/pic/teaser.png)
-
+[![github](/pic/github3.png){: width="50px" }](https://github.com/THU-luvision/Flashfusion)  &nbsp;&nbsp;&nbsp;
+[![pdf](/pic/pdf.jpeg){: width="50px" }](https://github.com/THU-luvision/Flashfusion) &nbsp;&nbsp;&nbsp;
+[![video](/pic/video.png){: width="50px" }](https://github.com/THU-luvision/Flashfusion)
 
 ## Introduction
-This is the official code repository for FlashFusion, an efficient dense 3D reconstruction system that only relies on CPU computing.
 
-This is a project from LuVision SIGMA, Tsinghua University. Visit our website for more interesting works: http://www.luvision.net/
+Aiming at the practical usage of dense 3D reconstruction on portable devices, we propose FlashFusion, a Fast
+LArge-Scale High-resolution (sub-centimeter level) 3D reconstruction system without the use of GPU computing. It enables
+globally-consistent localization through a robust yet fast global
+bundle adjustment scheme, and realizes spatial hashing based
+volumetric fusion running at 300Hz and rendering at 25Hz
+via highly efficient valid chunk selection and mesh extraction
+schemes. Extensive experiments on both real world and synthetic
+datasets demonstrate that FlashFusion succeeds to enable realtime, globally consistent, high-resolution (5mm), and large-scale
+dense 3D reconstruction using highly-constrained computation,
+i.e., the CPU computing on portable device.
 
-## License
-This project is released under the [GPLv3 license](LICENSE). We only allow free use for academic use. For commercial use, please contact us to negotiate a different license by: `fanglu at tsinghua.edu.cn`
+{:refdef: style="text-align: center;"}
+![Framework](/pic/flashfusion_pipeline.png){: width="800" }
+{: refdef}
+<center>Framework.</center>
 
 ## Citing
 
@@ -30,42 +43,3 @@ If you find our code useful, please kindly cite our paper:
 }
 ```
 
-## Environment setup
-
-### Preliminary Requirements:
-* Ubuntu 16.04/18.04
-* Intel cpu 
-
-### Compile
-```bash
-source prepare.sh
-mkdir build
-cd build
-cmake ..
-make -j
-```
-
-### Data preparation
-
-Put the dataset at `dataset/`, organized as 
-```
-dataset
-|---- iclnuim
-|---- tum
-|---- xtion
-```
-
-### Usage 
-```
-sudo ./FlashFusion sensor_type calib_file voxel_size dataset_path
-
-sensor_type: 0:dataset 1:realtime openni_camera(such as xtion) 2: realtime realsense_camera
-
-Example:
-  sudo ./FlashFusion 0 ../param/calib_tum.txt 0.005 ../dataset/tum/fr1_desk/
-  sudo ./FlashFusion 0 ../param/calib_icl.txt 0.005 ../dataset/iclnuim/icl0n/
-  sudo ./FlashFusion 0 ../param/calib_xtion.txt 0.005 ../dataset/xtion/
-
-  sudo ./FlashFusion 1 ../param/calib_xtion.txt 0.005
-
-```

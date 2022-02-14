@@ -1,6 +1,6 @@
 # Tsinghua visual intelligence and computational imaging lab
 
-[Lab Homepage](http://www.luvision.net/)
+These are open-source projects from LuVision SIGMA, Tsinghua University. Visit our website for more interesting works: http://www.luvision.net/
 
 ## Introduction
 

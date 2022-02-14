@@ -1,4 +1,4 @@
-title: Luvision code
+title: Luvision resource
 description: Just another documentation theme compatible with GitHub Pages
 
 theme: null
@@ -15,7 +15,8 @@ plugins:
   - jemoji
   - jekyll-avatar
   - jekyll-mentions
-
+  - jekyll-image-size
+  
 exclude:
   - Makefile
   - CNAME
