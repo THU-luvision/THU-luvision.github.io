@@ -11,7 +11,7 @@ Lei Han, Lu Fang.<br/>**IEEE International Conference on Multimedia and Expo.** 
 ## Introduction
 This is the official implementation for MILD: Multi-Index hashing for Loop closure Detection.
 
-<!-- ![Framework](/pic/buildingfusion.png) -->
+![Framework](/pic/mild.png)
 
 
 
