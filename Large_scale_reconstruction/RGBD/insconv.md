@@ -1,6 +1,6 @@
----
+<!-- ---
 sort: 1
----
+--- -->
 
 # INS-Conv: Incremental Sparse Convolution for Online 3D segmentation
 
