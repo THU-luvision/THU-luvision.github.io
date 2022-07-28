@@ -1,11 +1,6 @@
-<!-- ---
-sort: 1
---- -->
-
 # INS-Conv: Incremental Sparse Convolution for Online 3D segmentation
 
-
-Han Lei, Tian Zheng, Lan Xu, Lu Fang.<br/>**InProceedings of the IEEE/CVF conference on computer vision and pattern recognition.** 2020.
+Leyao Liu, Tian Zheng, Yun-Jou Lin, Kai Ni, Lu Fang.<br/>**InProceedings of the IEEE/CVF conference on computer vision and pattern recognition.** 2022.
 
 [![github](/pic/github3.png){: width="50px" }](https://github.com/THU-luvision/INS-Conv)  &nbsp;&nbsp;&nbsp;
 [![pdf](/pic/pdf.jpeg){: width="50px" }](https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_INS-Conv_Incremental_Sparse_Convolution_for_Online_3D_Segmentation_CVPR_2022_paper.pdf) &nbsp;&nbsp;&nbsp;
