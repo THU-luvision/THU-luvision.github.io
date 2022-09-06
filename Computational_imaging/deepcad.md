@@ -1,6 +1,6 @@
 ## DeepCAD: Deep self-supervised learning for calcium imaging denoising
 
-Yang Tan, Haitian Zheng, Yinheng Zhu, Xiaoyun Yuan, Xing Lin, David Brady, Lu Fang.<br/>**Nature Methods.** 2021 Aug 16.
+Xinyang Li, Guoxun Zhang, Jiamin Wu, Yuanlong Zhang, Zhifeng Zhao, Xing Lin, Hui Qiao, Hao Xie, Haoqian Wang, Lu Fang, Qionghai Dai.<br/>**Nature Methods.** 2021 Aug 16.
 
 [![github](/pic/github3.png){: width="50px" }](https://github.com/THU-luvision/DeepCAD)  &nbsp;&nbsp;&nbsp;
 [![pdf](/pic/pdf.jpeg){: width="50px" }](https://www.nature.com/articles/s41592-021-01225-0) &nbsp;&nbsp;&nbsp;
